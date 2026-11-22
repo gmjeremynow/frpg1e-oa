@@ -1,4 +1,4 @@
-# OA for 1e FRPG, v0.2.0
+# OA for 1e FRPG, v0.2.1
 
 An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14). It adds the OA rules: the OA races and classes on the character sheet, honor and birth, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment, magic items, monsters and roll tables. Turn the module on or off in Manage Modules. Don't run it together with OA Lite (frpg1e-oa-lite): both add the same races and classes.
 
@@ -63,3 +63,7 @@ Then switch it on in the world and accept the offer to build the OA compendia. T
 - "shikko-" against "shikki-gaki".
 - Me-zu: "Celestial Empire".
 - Table 56 has no slash totals.
+
+## Changes
+
+- 0.2.1: fixed the mirror of fear's panic roll, which used a saving throw value the system doesn't accept (Foundry showed a validation error when the compendia were built). It is now marked "negates", with a note that the save is versus spell.

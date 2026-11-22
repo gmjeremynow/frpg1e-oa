@@ -1,6 +1,6 @@
 /** World compendia built from the module's JSON (same approach as the system: no compiled LevelDB packs). */
 const MID = "frpg1e-oa";
-export const DATA_VERSION = "2";
+export const DATA_VERSION = "3";
 
 const PACKS = [
   { name: "oa-lore", label: "OA Journals", file: "journals.json", type: "JournalEntry", folder: d => d.folder },
