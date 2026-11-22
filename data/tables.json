@@ -1,0 +1,6592 @@
+[
+ {
+  "name": "OA Table 38: Character Birth",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Family and honor",
+  "description": "<p>Roll 2d10 and add the class modifier from OA Table 37 (samurai +10, yakuza −10 as printed). The table covers totals 2 to 30 as printed. The Roll birth button on the OA tab of the character sheet applies the modifier. Ancestry and birthright entries give the die type / number of rolls for OA Tables 39 and 40 (OA p.31).</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "<strong>Outcast</strong>: NPC reaction 5%; ancestry d6/1; birthrights d4/1; family honor 0",
+    "description": "<strong>Outcast</strong>: NPC reaction 5%; ancestry d6/1; birthrights d4/1; family honor 0",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Lower Class</strong>: NPC reaction 10%; ancestry d6/1; birthrights d4/2; family honor 1",
+    "description": "<strong>Lower Class</strong>: NPC reaction 10%; ancestry d6/1; birthrights d4/2; family honor 1",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Lower Middle Class</strong>: NPC reaction 15%; ancestry d6/2; birthrights d6/1; family honor 5",
+    "description": "<strong>Lower Middle Class</strong>: NPC reaction 15%; ancestry d6/2; birthrights d6/1; family honor 5",
+    "range": [
+     4,
+     5
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Middle Class</strong>: NPC reaction 20%; ancestry d10/1; birthrights d8/2; family honor 8",
+    "description": "<strong>Middle Class</strong>: NPC reaction 20%; ancestry d10/1; birthrights d8/2; family honor 8",
+    "range": [
+     6,
+     8
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Upper Middle Class</strong>: NPC reaction 25%; ancestry d20/2; birthrights d20/2; family honor 10",
+    "description": "<strong>Upper Middle Class</strong>: NPC reaction 25%; ancestry d20/2; birthrights d20/2; family honor 10",
+    "range": [
+     9,
+     10
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Lower Upper Class</strong>: NPC reaction 30%; ancestry d100/2; birthrights d20/4; family honor 15",
+    "description": "<strong>Lower Upper Class</strong>: NPC reaction 30%; ancestry d100/2; birthrights d20/4; family honor 15",
+    "range": [
+     11,
+     12
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>Upper Class</strong>: NPC reaction 35%; ancestry d100/4; birthrights d100/3; family honor 17",
+    "description": "<strong>Upper Class</strong>: NPC reaction 35%; ancestry d100/4; birthrights d100/3; family honor 17",
+    "range": [
+     13,
+     14
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>10th Rank</strong>: NPC reaction 40%; ancestry d100/5; birthrights d100/4; family honor 20",
+    "description": "<strong>10th Rank</strong>: NPC reaction 40%; ancestry d100/5; birthrights d100/4; family honor 20",
+    "range": [
+     15,
+     16
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>9th Rank</strong>: NPC reaction 45%; ancestry d100/6; birthrights d100/5; family honor 22",
+    "description": "<strong>9th Rank</strong>: NPC reaction 45%; ancestry d100/6; birthrights d100/5; family honor 22",
+    "range": [
+     17,
+     18
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>8th Rank</strong>: NPC reaction 50%; ancestry d100/7; birthrights d100/6; family honor 24",
+    "description": "<strong>8th Rank</strong>: NPC reaction 50%; ancestry d100/7; birthrights d100/6; family honor 24",
+    "range": [
+     19,
+     20
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>7th Rank</strong>: NPC reaction 55%; ancestry d100/7; birthrights d100/7; family honor 25",
+    "description": "<strong>7th Rank</strong>: NPC reaction 55%; ancestry d100/7; birthrights d100/7; family honor 25",
+    "range": [
+     21,
+     22
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>6th Rank</strong>: NPC reaction 60%; ancestry d100/7; birthrights d100/8; family honor 26",
+    "description": "<strong>6th Rank</strong>: NPC reaction 60%; ancestry d100/7; birthrights d100/8; family honor 26",
+    "range": [
+     23,
+     24
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>5th Rank</strong>: NPC reaction 65%; ancestry d100/8; birthrights d100/9; family honor 27",
+    "description": "<strong>5th Rank</strong>: NPC reaction 65%; ancestry d100/8; birthrights d100/9; family honor 27",
+    "range": [
+     25,
+     26
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>4th Rank</strong>: NPC reaction 70%; ancestry d100/8; birthrights d100/10; family honor 28",
+    "description": "<strong>4th Rank</strong>: NPC reaction 70%; ancestry d100/8; birthrights d100/10; family honor 28",
+    "range": [
+     27,
+     27
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>3rd Rank</strong>: NPC reaction 75%; ancestry d100/9; birthrights d100/10; family honor 29",
+    "description": "<strong>3rd Rank</strong>: NPC reaction 75%; ancestry d100/9; birthrights d100/10; family honor 29",
+    "range": [
+     28,
+     28
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>2nd Rank</strong>: NPC reaction 80%; ancestry d100/9; birthrights d100/10; family honor 30",
+    "description": "<strong>2nd Rank</strong>: NPC reaction 80%; ancestry d100/9; birthrights d100/10; family honor 30",
+    "range": [
+     29,
+     29
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "<strong>1st Rank</strong>: NPC reaction 90%; ancestry d100/10; birthrights d100/10; family honor 35",
+    "description": "<strong>1st Rank</strong>: NPC reaction 90%; ancestry d100/10; birthrights d100/10; family honor 35",
+    "range": [
+     30,
+     30
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 39: Ancestry",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Family and honor",
+  "description": "<p>Roll the die type, the number of times, given by OA Table 38 for the character's birth rank (for example d6 once for Outcast). The table's own formula is 1d100 so that every row can be reached; change the formula to the die from Table 38 before rolling, or roll that die and look up the result. Honor found here is added to the family honor from Table 38. Each result is explained in the OA Journals, Family and Honor (OA p.33-34).</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     1,
+     3
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Criminal (honor −15)",
+    "description": "Criminal (honor −15)",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land, small mountain (honor 0)",
+    "description": "Land, small mountain (honor 0)",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, using next higher die or +10 (honor 0)",
+    "description": "Roll again, using next higher die or +10 (honor 0)",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land, small farm (honor +2)",
+    "description": "Land, small farm (honor +2)",
+    "range": [
+     7,
+     8
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Traditional business (honor +2)",
+    "description": "Traditional business (honor +2)",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, using next higher die or +10 (honor 0)",
+    "description": "Roll again, using next higher die or +10 (honor 0)",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Common bloodline (honor −10)",
+    "description": "Common bloodline (honor −10)",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land, modest farm (honor +3)",
+    "description": "Land, modest farm (honor +3)",
+    "range": [
+     12,
+     15
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land, small town (honor +6)",
+    "description": "Land, small town (honor +6)",
+    "range": [
+     16,
+     19
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, using next higher die or +10 (honor 0)",
+    "description": "Roll again, using next higher die or +10 (honor 0)",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     21,
+     24
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Advantageous marriage (honor +6)",
+    "description": "Advantageous marriage (honor +6)",
+    "range": [
+     25,
+     26
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ancestral alliance (honor +3)",
+    "description": "Ancestral alliance (honor +3)",
+    "range": [
+     27,
+     31
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ancestral feud (honor +2)",
+    "description": "Ancestral feud (honor +2)",
+    "range": [
+     32,
+     35
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     36,
+     38
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Brilliant artisan (honor +6)",
+    "description": "Brilliant artisan (honor +6)",
+    "range": [
+     39,
+     39
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Castle, small (honor +8)",
+    "description": "Castle, small (honor +8)",
+    "range": [
+     40,
+     42
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Castle, large (honor +10)",
+    "description": "Castle, large (honor +10)",
+    "range": [
+     43,
+     44
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Classic artist (honor +7)",
+    "description": "Classic artist (honor +7)",
+    "range": [
+     45,
+     45
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Curse (honor −10)",
+    "description": "Curse (honor −10)",
+    "range": [
+     46,
+     46
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     47,
+     49
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Defeated family (honor −10)",
+    "description": "Defeated family (honor −10)",
+    "range": [
+     50,
+     50
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Estate, small (honor +6)",
+    "description": "Estate, small (honor +6)",
+    "range": [
+     51,
+     54
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Estate, large (honor +7)",
+    "description": "Estate, large (honor +7)",
+    "range": [
+     55,
+     56
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famous general (honor +9)",
+    "description": "Famous general (honor +9)",
+    "range": [
+     57,
+     57
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famous holy man (honor +1)",
+    "description": "Famous holy man (honor +1)",
+    "range": [
+     58,
+     58
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famous minister (honor +8)",
+    "description": "Famous minister (honor +8)",
+    "range": [
+     59,
+     59
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     60,
+     63
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     64,
+     69
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Folk hero (honor +10)",
+    "description": "Folk hero (honor +10)",
+    "range": [
+     70,
+     70
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Great betrayal (honor −20)",
+    "description": "Great betrayal (honor −20)",
+    "range": [
+     71,
+     71
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Great hero (honor +15)",
+    "description": "Great hero (honor +15)",
+    "range": [
+     72,
+     72
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     73,
+     77
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Imperial bloodline (honor +12)",
+    "description": "Imperial bloodline (honor +12)",
+    "range": [
+     78,
+     78
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Infamous general (honor −5)",
+    "description": "Infamous general (honor −5)",
+    "range": [
+     79,
+     79
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Infamous minister (honor −7)",
+    "description": "Infamous minister (honor −7)",
+    "range": [
+     80,
+     80
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     81,
+     85
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land, large town (honor +4)",
+    "description": "Land, large town (honor +4)",
+    "range": [
+     86,
+     87
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Merchant fleet (honor +2)",
+    "description": "Merchant fleet (honor +2)",
+    "range": [
+     88,
+     91
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Notorious moneylender (honor −5)",
+    "description": "Notorious moneylender (honor −5)",
+    "range": [
+     92,
+     93
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hereditary title (honor +7)",
+    "description": "Hereditary title (honor +7)",
+    "range": [
+     94,
+     96
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, +10 on die roll (honor 0)",
+    "description": "Roll again, +10 on die roll (honor 0)",
+    "range": [
+     97,
+     97
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Secret society (honor 0)",
+    "description": "Secret society (honor 0)",
+    "range": [
+     98,
+     98
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tragic event (honor +3)",
+    "description": "Tragic event (honor +3)",
+    "range": [
+     99,
+     99
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     100,
+     100
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 40: Birthrights",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Family and honor",
+  "description": "<p>The die type and number of rolls come from OA Table 38; the number of rolls is reduced by the character's birth rank in the family (a first son subtracts one) (OA p.34). The table's own formula is 1d100 so that every row can be reached; change it to the die from Table 38 before rolling. Honor found here is personal honor.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     1,
+     3
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, using next higher die or +10",
+    "description": "Roll again, using next higher die or +10",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Property share (personal honor +1)",
+    "description": "Property share (personal honor +1)",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again, using next higher die or +10 (the sign is unclear in the scan; the roll-again rule on p.34 adds 10)",
+    "description": "Roll again, using next higher die or +10 (the sign is unclear in the scan; the roll-again rule on p.34 adds 10)",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Property share (personal honor +1)",
+    "description": "Property share (personal honor +1)",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     9,
+     16
+    ],
+    "weight": 8,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Property share (personal honor +1)",
+    "description": "Property share (personal honor +1)",
+    "range": [
+     17,
+     18
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Horse",
+    "description": "Horse",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "1-6 cash strings",
+    "description": "1-6 cash strings",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     21,
+     30
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Armor of quality (personal honor +2)",
+    "description": "Armor of quality (personal honor +2)",
+    "range": [
+     31,
+     33
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     34,
+     40
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Property share (personal honor +1)",
+    "description": "Property share (personal honor +1)",
+    "range": [
+     41,
+     45
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     46,
+     50
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "1-8 cash strings",
+    "description": "1-8 cash strings",
+    "range": [
+     51,
+     55
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Property share (personal honor +1)",
+    "description": "Property share (personal honor +1)",
+    "range": [
+     56,
+     60
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Weapon of quality (personal honor +2)",
+    "description": "Weapon of quality (personal honor +2)",
+    "range": [
+     61,
+     63
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     64,
+     70
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Armor of quality (personal honor +2)",
+    "description": "Armor of quality (personal honor +2)",
+    "range": [
+     71,
+     75
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "1-4 horses (personal honor +1)",
+    "description": "1-4 horses (personal honor +1)",
+    "range": [
+     76,
+     80
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nothing",
+    "description": "Nothing",
+    "range": [
+     81,
+     90
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "2-12 cash strings",
+    "description": "2-12 cash strings",
+    "range": [
+     91,
+     95
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Weapon of quality (personal honor +2)",
+    "description": "Weapon of quality (personal honor +2)",
+    "range": [
+     96,
+     98
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Magical weapon (personal honor +4)",
+    "description": "Magical weapon (personal honor +4)",
+    "range": [
+     99,
+     99
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Roll again with +10 on die roll",
+    "description": "Roll again with +10 on die roll",
+    "range": [
+     100,
+     100
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 86: OA Magical Items",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Treasure",
+  "description": "<p>OA p.133. Classes in parentheses are the only ones able to use the item. The items are in the OA Magic Items compendium. OA Tables 74-85 (treasure, magical armor and weapons) are not included here; see the book.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Banner of Protection",
+    "description": "Banner of Protection",
+    "range": [
+     1,
+     5
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bell of Protection",
+    "description": "Bell of Protection",
+    "range": [
+     6,
+     8
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bell of Warning",
+    "description": "Bell of Warning",
+    "range": [
+     9,
+     11
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Calm",
+    "description": "Biwa of Calm",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Charm",
+    "description": "Biwa of Charm",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Discord",
+    "description": "Biwa of Discord",
+    "range": [
+     14,
+     15
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Disease",
+    "description": "Charm of Protection from Disease",
+    "range": [
+     16,
+     20
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Fire",
+    "description": "Charm of Protection from Fire",
+    "range": [
+     21,
+     24
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Spirits",
+    "description": "Charm of Protection from Spirits",
+    "range": [
+     25,
+     27
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Theft",
+    "description": "Charm of Protection from Theft",
+    "range": [
+     28,
+     31
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Diamond Mace",
+    "description": "Diamond Mace",
+    "range": [
+     32,
+     32
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Drums of Thunder",
+    "description": "Drums of Thunder",
+    "range": [
+     33,
+     33
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eight Diagram Coins",
+    "description": "Eight Diagram Coins",
+    "range": [
+     34,
+     35
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Everproducing Rice Mortar",
+    "description": "Everproducing Rice Mortar",
+    "range": [
+     36,
+     36
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gem of Wishes",
+    "description": "Gem of Wishes",
+    "range": [
+     37,
+     37
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gong of Dispelling",
+    "description": "Gong of Dispelling",
+    "range": [
+     38,
+     41
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mallet of Luck",
+    "description": "Mallet of Luck",
+    "range": [
+     42,
+     44
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Minyan (shukenja, sohei)",
+    "description": "Minyan (shukenja, sohei)",
+    "range": [
+     45,
+     45
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Curing",
+    "description": "Mirror of Curing",
+    "range": [
+     46,
+     47
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Enlightenment",
+    "description": "Mirror of Enlightenment",
+    "range": [
+     48,
+     48
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Fear",
+    "description": "Mirror of Fear",
+    "range": [
+     49,
+     51
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Spirit Seeing",
+    "description": "Mirror of Spirit Seeing",
+    "range": [
+     52,
+     53
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Net of Spirit Snaring (shukenja)",
+    "description": "Net of Spirit Snaring (shukenja)",
+    "range": [
+     54,
+     58
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Noisome Spirit Chasers",
+    "description": "Noisome Spirit Chasers",
+    "range": [
+     59,
+     60
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Paper of Forms",
+    "description": "Paper of Forms",
+    "range": [
+     61,
+     63
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of Protection from Fire",
+    "description": "Pearl of Protection from Fire",
+    "range": [
+     64,
+     70
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of the Ebbing Tide",
+    "description": "Pearl of the Ebbing Tide",
+    "range": [
+     71,
+     71
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of the Rising Tide",
+    "description": "Pearl of the Rising Tide",
+    "range": [
+     72,
+     72
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scroll of Protection from Spirits",
+    "description": "Scroll of Protection from Spirits",
+    "range": [
+     73,
+     85
+    ],
+    "weight": 13,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Seal of Deception (ninja, yakuza)",
+    "description": "Seal of Deception (ninja, yakuza)",
+    "range": [
+     86,
+     87
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Seal of Vigor",
+    "description": "Seal of Vigor",
+    "range": [
+     88,
+     92
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tablet of Spirit Summoning (shukenja, wu jen)",
+    "description": "Tablet of Spirit Summoning (shukenja, wu jen)",
+    "range": [
+     93,
+     94
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Wheels of Fire",
+    "description": "Wheels of Fire",
+    "range": [
+     95,
+     96
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Wondrous Writing Set",
+    "description": "Wondrous Writing Set",
+    "range": [
+     97,
+     100
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 71: Yearly Events",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.107. One yearly event at most for each land where the player characters are; roll 1d12 for the month it begins (OA p.108). Each event is described in the OA Journals, Events and Encounters.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Ambassador",
+    "description": "Ambassador",
+    "range": [
+     1,
+     10
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Assassination of a Lord",
+    "description": "Assassination of a Lord",
+    "range": [
+     11,
+     15
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Birth",
+    "description": "Birth",
+    "range": [
+     16,
+     30
+    ],
+    "weight": 15,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Comet",
+    "description": "Comet",
+    "range": [
+     31,
+     31
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Death of a Lord",
+    "description": "Death of a Lord",
+    "range": [
+     32,
+     40
+    ],
+    "weight": 9,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Earthquake, Major",
+    "description": "Earthquake, Major",
+    "range": [
+     41,
+     43
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famine",
+    "description": "Famine",
+    "range": [
+     44,
+     47
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Fire, Major",
+    "description": "Fire, Major",
+    "range": [
+     48,
+     52
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Flood",
+    "description": "Flood",
+    "range": [
+     53,
+     57
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Incursion, Major",
+    "description": "Incursion, Major",
+    "range": [
+     58,
+     58
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Marriage",
+    "description": "Marriage",
+    "range": [
+     59,
+     68
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "New Religion",
+    "description": "New Religion",
+    "range": [
+     69,
+     69
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Plague",
+    "description": "Plague",
+    "range": [
+     70,
+     74
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Political Plot",
+    "description": "Political Plot",
+    "range": [
+     75,
+     78
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Rebellion",
+    "description": "Rebellion",
+    "range": [
+     79,
+     85
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tsunami",
+    "description": "Tsunami",
+    "range": [
+     86,
+     86
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Visitation",
+    "description": "Visitation",
+    "range": [
+     87,
+     87
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Volcano",
+    "description": "Volcano",
+    "range": [
+     88,
+     88
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "War",
+    "description": "War",
+    "range": [
+     89,
+     100
+    ],
+    "weight": 12,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 72: Monthly Events: Assassination, Incursion, Political Plot, Rebellion, War",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.108. Use the column that fits the yearly event: the first in months of armed violence or its threat, the second in months of natural disasters and their aftermath, the third when nothing of the kind is happening.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Accident",
+    "description": "Accident",
+    "range": [
+     1,
+     5
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandit Activity",
+    "description": "Bandit Activity",
+    "range": [
+     6,
+     10
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Birth",
+    "description": "Birth",
+    "range": [
+     11,
+     15
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Death",
+    "description": "Death",
+    "range": [
+     16,
+     20
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Excessive Taxes",
+    "description": "Excessive Taxes",
+    "range": [
+     21,
+     25
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famous Person",
+    "description": "Famous Person",
+    "range": [
+     26,
+     27
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Fire, Major",
+    "description": "Fire, Major",
+    "range": [
+     28,
+     28
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Haunting",
+    "description": "Haunting",
+    "range": [
+     29,
+     30
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Horrendous Monster",
+    "description": "Horrendous Monster",
+    "range": [
+     31,
+     33
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Incursion, Major",
+    "description": "Incursion, Major",
+    "range": [
+     34,
+     41
+    ],
+    "weight": 8,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Incursion, Minor",
+    "description": "Incursion, Minor",
+    "range": [
+     42,
+     51
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Injustice",
+    "description": "Injustice",
+    "range": [
+     52,
+     54
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Major Battle",
+    "description": "Major Battle",
+    "range": [
+     55,
+     60
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Notorious Criminal",
+    "description": "Notorious Criminal",
+    "range": [
+     61,
+     61
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Recruiting",
+    "description": "Recruiting",
+    "range": [
+     62,
+     66
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Troop Movements",
+    "description": "Troop Movements",
+    "range": [
+     67,
+     71
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Uprising",
+    "description": "Uprising",
+    "range": [
+     72,
+     78
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Vengeful Stranger",
+    "description": "Vengeful Stranger",
+    "range": [
+     79,
+     80
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "No Event",
+    "description": "No Event",
+    "range": [
+     81,
+     100
+    ],
+    "weight": 20,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 72: Monthly Events: Natural Disaster",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.108. Use the column that fits the yearly event: the first in months of armed violence or its threat, the second in months of natural disasters and their aftermath, the third when nothing of the kind is happening.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Accident",
+    "description": "Accident",
+    "range": [
+     1,
+     5
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bad Harvest",
+    "description": "Bad Harvest",
+    "range": [
+     6,
+     15
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bad Weather",
+    "description": "Bad Weather",
+    "range": [
+     16,
+     22
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandit Activity",
+    "description": "Bandit Activity",
+    "range": [
+     23,
+     32
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Birth",
+    "description": "Birth",
+    "range": [
+     33,
+     37
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Death",
+    "description": "Death",
+    "range": [
+     38,
+     44
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Earthquake, Minor",
+    "description": "Earthquake, Minor",
+    "range": [
+     45,
+     49
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Excessive Taxes",
+    "description": "Excessive Taxes",
+    "range": [
+     50,
+     54
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Fire, Minor",
+    "description": "Fire, Minor",
+    "range": [
+     55,
+     60
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Flooding",
+    "description": "Flooding",
+    "range": [
+     61,
+     66
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Haunting",
+    "description": "Haunting",
+    "range": [
+     67,
+     69
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Horrendous Monster",
+    "description": "Horrendous Monster",
+    "range": [
+     70,
+     73
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Injustice",
+    "description": "Injustice",
+    "range": [
+     74,
+     78
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Landslide",
+    "description": "Landslide",
+    "range": [
+     79,
+     82
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Maneater",
+    "description": "Maneater",
+    "range": [
+     83,
+     87
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Plague",
+    "description": "Plague",
+    "range": [
+     88,
+     92
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Uprising",
+    "description": "Uprising",
+    "range": [
+     93,
+     93
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "VIP Visit",
+    "description": "VIP Visit",
+    "range": [
+     94,
+     94
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "No Event",
+    "description": "No Event",
+    "range": [
+     95,
+     100
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 72: Monthly Events: Other",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.108. Use the column that fits the yearly event: the first in months of armed violence or its threat, the second in months of natural disasters and their aftermath, the third when nothing of the kind is happening.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Accident",
+    "description": "Accident",
+    "range": [
+     1,
+     5
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bad Harvest",
+    "description": "Bad Harvest",
+    "range": [
+     6,
+     7
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bad Weather",
+    "description": "Bad Weather",
+    "range": [
+     8,
+     10
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandit Activity",
+    "description": "Bandit Activity",
+    "range": [
+     11,
+     15
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Birth",
+    "description": "Birth",
+    "range": [
+     16,
+     25
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Death",
+    "description": "Death",
+    "range": [
+     26,
+     30
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Famous Person",
+    "description": "Famous Person",
+    "range": [
+     31,
+     35
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Fire, Minor",
+    "description": "Fire, Minor",
+    "range": [
+     36,
+     40
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Haunting",
+    "description": "Haunting",
+    "range": [
+     41,
+     43
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Injustice",
+    "description": "Injustice",
+    "range": [
+     44,
+     50
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Maiden of Virtue",
+    "description": "Maiden of Virtue",
+    "range": [
+     51,
+     55
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Maneater",
+    "description": "Maneater",
+    "range": [
+     56,
+     60
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Marriage",
+    "description": "Marriage",
+    "range": [
+     61,
+     68
+    ],
+    "weight": 8,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Notorious Criminal",
+    "description": "Notorious Criminal",
+    "range": [
+     69,
+     78
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Vengeful Stranger",
+    "description": "Vengeful Stranger",
+    "range": [
+     79,
+     83
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "VIP Visit",
+    "description": "VIP Visit",
+    "range": [
+     84,
+     92
+    ],
+    "weight": 9,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "No Event",
+    "description": "No Event",
+    "range": [
+     93,
+     100
+    ],
+    "weight": 8,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 73: Daily Events: Court",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.112. Events possible per day: court 0-1, city or town 0-1, rural area 0-2, wilderness 0-3, sea or ocean 0-2. Roll percentile dice once for each possible event on the column for the characters' location; many rolls give no event. Monster means a roll on the OA encounter tables for the terrain.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     1,
+     50
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Contest",
+    "description": "Contest",
+    "range": [
+     51,
+     60
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Duel",
+    "description": "Duel",
+    "range": [
+     61,
+     65
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Entreaty",
+    "description": "Entreaty",
+    "range": [
+     66,
+     69
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Illness",
+    "description": "Illness",
+    "range": [
+     70,
+     72
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Invitation",
+    "description": "Invitation",
+    "range": [
+     73,
+     79
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Maiden",
+    "description": "Maiden",
+    "range": [
+     80,
+     82
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Monster",
+    "description": "Monster",
+    "range": [
+     83,
+     83
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Plot",
+    "description": "Plot",
+    "range": [
+     84,
+     86
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Special",
+    "description": "Special",
+    "range": [
+     87,
+     91
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "VIP",
+    "description": "VIP",
+    "range": [
+     92,
+     100
+    ],
+    "weight": 9,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 73: Daily Events: City/Town",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.112. Events possible per day: court 0-1, city or town 0-1, rural area 0-2, wilderness 0-3, sea or ocean 0-2. Roll percentile dice once for each possible event on the column for the characters' location; many rolls give no event. Monster means a roll on the OA encounter tables for the terrain.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     1,
+     50
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Duel",
+    "description": "Duel",
+    "range": [
+     51,
+     55
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Entreaty",
+    "description": "Entreaty",
+    "range": [
+     56,
+     60
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Fire, small",
+    "description": "Fire, small",
+    "range": [
+     61,
+     63
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Insult",
+    "description": "Insult",
+    "range": [
+     64,
+     70
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Invitation",
+    "description": "Invitation",
+    "range": [
+     71,
+     77
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kidnapping",
+    "description": "Kidnapping",
+    "range": [
+     78,
+     79
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Maiden",
+    "description": "Maiden",
+    "range": [
+     80,
+     81
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Monster",
+    "description": "Monster",
+    "range": [
+     82,
+     84
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "VIP",
+    "description": "VIP",
+    "range": [
+     85,
+     94
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     95,
+     100
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 73: Daily Events: Rural",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.112. Events possible per day: court 0-1, city or town 0-1, rural area 0-2, wilderness 0-3, sea or ocean 0-2. Roll percentile dice once for each possible event on the column for the characters' location; many rolls give no event. Monster means a roll on the OA encounter tables for the terrain.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     1,
+     50
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandits",
+    "description": "Bandits",
+    "range": [
+     51,
+     60
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crime",
+    "description": "Crime",
+    "range": [
+     61,
+     65
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Haunting",
+    "description": "Haunting",
+    "range": [
+     66,
+     70
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Monster",
+    "description": "Monster",
+    "range": [
+     71,
+     80
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stranger",
+    "description": "Stranger",
+    "range": [
+     81,
+     83
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shrine",
+    "description": "Shrine",
+    "range": [
+     84,
+     88
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mystery",
+    "description": "Mystery",
+    "range": [
+     89,
+     90
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "VIP",
+    "description": "VIP",
+    "range": [
+     91,
+     95
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     96,
+     100
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 73: Daily Events: Wilderness",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.112. Events possible per day: court 0-1, city or town 0-1, rural area 0-2, wilderness 0-3, sea or ocean 0-2. Roll percentile dice once for each possible event on the column for the characters' location; many rolls give no event. Monster means a roll on the OA encounter tables for the terrain.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     1,
+     50
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandit camp",
+    "description": "Bandit camp",
+    "range": [
+     51,
+     51
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Monster",
+    "description": "Monster",
+    "range": [
+     52,
+     81
+    ],
+    "weight": 30,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nobles",
+    "description": "Nobles",
+    "range": [
+     82,
+     82
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ruins",
+    "description": "Ruins",
+    "range": [
+     83,
+     88
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shrine",
+    "description": "Shrine",
+    "range": [
+     89,
+     91
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Storm",
+    "description": "Storm",
+    "range": [
+     92,
+     93
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stranger",
+    "description": "Stranger",
+    "range": [
+     94,
+     94
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Traveler",
+    "description": "Traveler",
+    "range": [
+     95,
+     100
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 73: Daily Events: Ocean",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.112. Events possible per day: court 0-1, city or town 0-1, rural area 0-2, wilderness 0-3, sea or ocean 0-2. Roll percentile dice once for each possible event on the column for the characters' location; many rolls give no event. Monster means a roll on the OA encounter tables for the terrain.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "No event",
+    "description": "No event",
+    "range": [
+     1,
+     50
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Becalmed",
+    "description": "Becalmed",
+    "range": [
+     51,
+     53
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Monster",
+    "description": "Monster",
+    "range": [
+     54,
+     77
+    ],
+    "weight": 24,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pirates",
+    "description": "Pirates",
+    "range": [
+     78,
+     87
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ship",
+    "description": "Ship",
+    "range": [
+     88,
+     92
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Storm",
+    "description": "Storm",
+    "range": [
+     93,
+     98
+    ],
+    "weight": 6,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Land",
+    "description": "Land",
+    "range": [
+     99,
+     100
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Ruins",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Events",
+  "description": "<p>OA p.113 (Ruins daily event). The percentage is the chance that the ruin is haunted by some type of spirit or inhabited by some type of monster; the DM chooses the creatures.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Temple compound (70% haunted or inhabited)",
+    "description": "Temple compound (70% haunted or inhabited)",
+    "range": [
+     1,
+     10
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Farmhouse (20% haunted or inhabited)",
+    "description": "Farmhouse (20% haunted or inhabited)",
+    "range": [
+     11,
+     60
+    ],
+    "weight": 50,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shrine (50% haunted or inhabited)",
+    "description": "Shrine (50% haunted or inhabited)",
+    "range": [
+     61,
+     90
+    ],
+    "weight": 30,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Military stockade (30% haunted or inhabited)",
+    "description": "Military stockade (30% haunted or inhabited)",
+    "range": [
+     91,
+     100
+    ],
+    "weight": 10,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: City/Town",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Ogre magi",
+    "description": "Ogre magi",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Jiki-ketsu-gaki",
+    "description": "Jiki-ketsu-gaki",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Jiki-niku-gaki",
+    "description": "Jiki-niku-gaki",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kuei",
+    "description": "Kuei",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin rat",
+    "description": "Goblin rat",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shikko-gaki",
+    "description": "Shikko-gaki",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Merchant",
+    "description": "Merchant",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pilgrim",
+    "description": "Pilgrim",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Noble",
+    "description": "Noble",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eastern NPC party",
+    "description": "Eastern NPC party",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shinen-gaki",
+    "description": "Shinen-gaki",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buso, tigbauna",
+    "description": "Buso, tigbauna",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hengeyokai",
+    "description": "Hengeyokai",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hu hsien",
+    "description": "Hu hsien",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Cat lord",
+    "description": "Cat lord",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gajin NPC party",
+    "description": "Gajin NPC party",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ikiryo",
+    "description": "Ikiryo",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Rural",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Jiki-ketsu-gaki",
+    "description": "Jiki-ketsu-gaki",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, humanoid",
+    "description": "Gargantua, humanoid",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bajang",
+    "description": "Bajang",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tengu",
+    "description": "Tengu",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin rat",
+    "description": "Goblin rat",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buffalo",
+    "description": "Buffalo",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eastern NPC party",
+    "description": "Eastern NPC party",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Centipede, huge",
+    "description": "Centipede, huge",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Brigands",
+    "description": "Brigands",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pilgrims",
+    "description": "Pilgrims",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hu hsien or ogre",
+    "description": "Hu hsien or ogre",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Centipede, giant",
+    "description": "Centipede, giant",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Jishin mushi or doc cu'o'c",
+    "description": "Jishin mushi or doc cu'o'c",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kenku",
+    "description": "Kenku",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, li lung",
+    "description": "Dragon, li lung",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin spider",
+    "description": "Goblin spider",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "P'oh",
+    "description": "P'oh",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ikiryo",
+    "description": "Ikiryo",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nat, hkum yeng",
+    "description": "Nat, hkum yeng",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Steppes",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hu hsien",
+    "description": "Hu hsien",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eagle",
+    "description": "Eagle",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ram",
+    "description": "Ram",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag, giant",
+    "description": "Stag, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Horse, wild",
+    "description": "Horse, wild",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scorpion, giant",
+    "description": "Scorpion, giant",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buffalo",
+    "description": "Buffalo",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nomads",
+    "description": "Nomads",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scorpion, large",
+    "description": "Scorpion, large",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag",
+    "description": "Stag",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandits",
+    "description": "Bandits",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scorpion, huge",
+    "description": "Scorpion, huge",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Vulture, giant",
+    "description": "Vulture, giant",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eastern character party",
+    "description": "Eastern character party",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "P'oh",
+    "description": "P'oh",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gajin character party",
+    "description": "Gajin character party",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Aerial",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Spirits of the air or dragon, t'ien lung",
+    "description": "Spirits of the air or dragon, t'ien lung",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ki-rin or phoenix",
+    "description": "Ki-rin or phoenix",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, tun mi lung or elemental, air",
+    "description": "Dragon, tun mi lung or elemental, air",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, chiang lung",
+    "description": "Dragon, chiang lung",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, li lung",
+    "description": "Dragon, li lung",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kenku",
+    "description": "Kenku",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bat, giant",
+    "description": "Bat, giant",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eagle or bee, giant worker",
+    "description": "Eagle or bee, giant worker",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bee, giant bumblebee or crane, giant",
+    "description": "Bee, giant bumblebee or crane, giant",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Raven, huge or raven, giant",
+    "description": "Raven, huge or raven, giant",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, small or vulture, ordinary",
+    "description": "Falcon, small or vulture, ordinary",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragonfly, giant or dragon horse",
+    "description": "Dragonfly, giant or dragon horse",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, large",
+    "description": "Falcon, large",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, insectoid or owl, giant",
+    "description": "Gargantua, insectoid or owl, giant",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, shen lung",
+    "description": "Dragon, shen lung",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, pan lung",
+    "description": "Dragon, pan lung",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, mist",
+    "description": "Dragon, mist",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bee, giant soldier or vulture, giant",
+    "description": "Bee, giant soldier or vulture, giant",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, cloud or dragon, gold",
+    "description": "Dragon, cloud or dragon, gold",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Tropical/Sub-tropical Mountains",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Dragon, gold",
+    "description": "Dragon, gold",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Yuan ti",
+    "description": "Yuan ti",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, weretiger",
+    "description": "Lycanthrope, weretiger",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tasloi",
+    "description": "Tasloi",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Termite, giant harvester",
+    "description": "Termite, giant harvester",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, poisonous",
+    "description": "Snake, poisonous",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, constrictor",
+    "description": "Snake, constrictor",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tribesmen",
+    "description": "Tribesmen",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buffalo",
+    "description": "Buffalo",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Rat, giant",
+    "description": "Rat, giant",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Game animals",
+    "description": "Game animals",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bat, giant",
+    "description": "Bat, giant",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandits",
+    "description": "Bandits",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, giant constrictor",
+    "description": "Snake, giant constrictor",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, reptilian",
+    "description": "Gargantua, reptilian",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Centipede, megalo-",
+    "description": "Centipede, megalo-",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, li lung",
+    "description": "Dragon, li lung",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Rakshasa",
+    "description": "Rakshasa",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Yellow musk creeper",
+    "description": "Yellow musk creeper",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Tropical/Sub-tropical Forest",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Nat, hkum yeng",
+    "description": "Nat, hkum yeng",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bisan",
+    "description": "Bisan",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eagle",
+    "description": "Eagle",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tasloi",
+    "description": "Tasloi",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Behemoth",
+    "description": "Behemoth",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buso, tigbauna",
+    "description": "Buso, tigbauna",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buso, tagamaling",
+    "description": "Buso, tagamaling",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tribesmen",
+    "description": "Tribesmen",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bandits",
+    "description": "Bandits",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kech",
+    "description": "Kech",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Centipede, huge",
+    "description": "Centipede, huge",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Brigands",
+    "description": "Brigands",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Baku or lycanthrope, weretiger",
+    "description": "Baku or lycanthrope, weretiger",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hsing-sing",
+    "description": "Hsing-sing",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nat, lu",
+    "description": "Nat, lu",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Doc cu'o'c",
+    "description": "Doc cu'o'c",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bajang",
+    "description": "Bajang",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Tropical/Sub-tropical Swamp",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Yuan ti",
+    "description": "Yuan ti",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Oni",
+    "description": "Oni",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nat, lu",
+    "description": "Nat, lu",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Behemoth",
+    "description": "Behemoth",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crane, giant",
+    "description": "Crane, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, constrictor",
+    "description": "Snake, constrictor",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, poisonous",
+    "description": "Snake, poisonous",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Rat, ordinary",
+    "description": "Rat, ordinary",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Rat, giant",
+    "description": "Rat, giant",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tribesmen",
+    "description": "Tribesmen",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, giant constrictor",
+    "description": "Snake, giant constrictor",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, giant poisonous",
+    "description": "Snake, giant poisonous",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, pan lung",
+    "description": "Dragon, pan lung",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, giant spitting",
+    "description": "Snake, giant spitting",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Skeleton",
+    "description": "Skeleton",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre mage",
+    "description": "Ogre mage",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eblis",
+    "description": "Eblis",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Tropical/Sub-tropical Freshwater",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Catfish, giant",
+    "description": "Catfish, giant",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragonfly, giant",
+    "description": "Dragonfly, giant",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crab, giant",
+    "description": "Crab, giant",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Behemoth",
+    "description": "Behemoth",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Carp, giant",
+    "description": "Carp, giant",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, wako",
+    "description": "Men, wako",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Frog, giant",
+    "description": "Frog, giant",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Beetle, giant water",
+    "description": "Beetle, giant water",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crocodile, normal",
+    "description": "Crocodile, normal",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tribesmen",
+    "description": "Tribesmen",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Merchant",
+    "description": "Merchant",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hippopotamus",
+    "description": "Hippopotamus",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, chiang lung",
+    "description": "Dragon, chiang lung",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, shen lung",
+    "description": "Dragon, shen lung",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, yu lung",
+    "description": "Dragon, yu lung",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eblis",
+    "description": "Eblis",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Verme",
+    "description": "Verme",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Tropical/Sub-tropical Ocean",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Dragon turtle",
+    "description": "Dragon turtle",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, gajin buccaneers",
+    "description": "Men, gajin buccaneers",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Afanc",
+    "description": "Afanc",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crab, giant",
+    "description": "Crab, giant",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Octopus, giant",
+    "description": "Octopus, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, wereshark",
+    "description": "Lycanthrope, wereshark",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Spider, giant marine",
+    "description": "Spider, giant marine",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre, aquatic",
+    "description": "Ogre, aquatic",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Turtle, giant sea",
+    "description": "Turtle, giant sea",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, wako",
+    "description": "Men, wako",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "School of fish",
+    "description": "School of fish",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, sea",
+    "description": "Snake, sea",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ningyo",
+    "description": "Ningyo",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Troll, marine",
+    "description": "Troll, marine",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hai nu",
+    "description": "Hai nu",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Verme",
+    "description": "Verme",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, tun mi lung",
+    "description": "Dragon, tun mi lung",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, lung wang",
+    "description": "Dragon, lung wang",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Elemental, water",
+    "description": "Elemental, water",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Mountain",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Jishin mushi",
+    "description": "Jishin mushi",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, humanoid",
+    "description": "Gargantua, humanoid",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, li lung",
+    "description": "Dragon, li lung",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, small",
+    "description": "Falcon, small",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag, giant",
+    "description": "Stag, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buso, tigbauna",
+    "description": "Buso, tigbauna",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Giant, hill",
+    "description": "Giant, hill",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag",
+    "description": "Stag",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Raven, ordinary",
+    "description": "Raven, ordinary",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Owl",
+    "description": "Owl",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, poisonous",
+    "description": "Snake, poisonous",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tengu",
+    "description": "Tengu",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Oni",
+    "description": "Oni",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Giant, mountain",
+    "description": "Giant, mountain",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, weretiger",
+    "description": "Lycanthrope, weretiger",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Forest",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Jishin mushi",
+    "description": "Jishin mushi",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Centipede, megalo-",
+    "description": "Centipede, megalo-",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tengu",
+    "description": "Tengu",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kech",
+    "description": "Kech",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mantis, giant",
+    "description": "Mantis, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shan sao",
+    "description": "Shan sao",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shinen-gaki",
+    "description": "Shinen-gaki",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, small or owl, giant",
+    "description": "Falcon, small or owl, giant",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eastern character party",
+    "description": "Eastern character party",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Brigands or merchant",
+    "description": "Brigands or merchant",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Weasel",
+    "description": "Weasel",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin spider",
+    "description": "Goblin spider",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hu hsien",
+    "description": "Hu hsien",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, foxwoman",
+    "description": "Lycanthrope, foxwoman",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, weretiger",
+    "description": "Lycanthrope, weretiger",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Plain",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Jiki-ketsu-gaki",
+    "description": "Jiki-ketsu-gaki",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Oni",
+    "description": "Oni",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre mage",
+    "description": "Ogre mage",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shinen-gaki",
+    "description": "Shinen-gaki",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crane, giant",
+    "description": "Crane, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Horse, wild",
+    "description": "Horse, wild",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Buffalo",
+    "description": "Buffalo",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scorpion, large",
+    "description": "Scorpion, large",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Herd animal",
+    "description": "Herd animal",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eastern NPC party or brigands",
+    "description": "Eastern NPC party or brigands",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Snake, poisonous",
+    "description": "Snake, poisonous",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag, giant",
+    "description": "Stag, giant",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, reptilian",
+    "description": "Gargantua, reptilian",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ki-rin",
+    "description": "Ki-rin",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Phoenix",
+    "description": "Phoenix",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Phantom",
+    "description": "Phantom",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Swamp",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Phantom",
+    "description": "Phantom",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ghost",
+    "description": "Ghost",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gargantua, insectoid",
+    "description": "Gargantua, insectoid",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, pan lung",
+    "description": "Dragon, pan lung",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shinen-gaki",
+    "description": "Shinen-gaki",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Spider, giant",
+    "description": "Spider, giant",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Quicksand",
+    "description": "Quicksand",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Spider, huge",
+    "description": "Spider, huge",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Spider, giant water",
+    "description": "Spider, giant water",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Weasel",
+    "description": "Weasel",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin rat",
+    "description": "Goblin rat",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Goblin spider",
+    "description": "Goblin spider",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Utoyasukata",
+    "description": "Utoyasukata",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Jiki-niku-gaki",
+    "description": "Jiki-niku-gaki",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Lycanthrope, foxwoman",
+    "description": "Lycanthrope, foxwoman",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Freshwater",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Catfish, giant",
+    "description": "Catfish, giant",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, wako",
+    "description": "Men, wako",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, shen lung",
+    "description": "Dragon, shen lung",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, yu lung",
+    "description": "Dragon, yu lung",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Naga, water",
+    "description": "Naga, water",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crayfish, giant",
+    "description": "Crayfish, giant",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Frog, giant",
+    "description": "Frog, giant",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crocodile, normal",
+    "description": "Crocodile, normal",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Spider, giant water",
+    "description": "Spider, giant water",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, lesser",
+    "description": "Nature spirit, lesser",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Beetle, giant water",
+    "description": "Beetle, giant water",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Merchant",
+    "description": "Merchant",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Carp, giant",
+    "description": "Carp, giant",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Leech, giant",
+    "description": "Leech, giant",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, chiang lung",
+    "description": "Dragon, chiang lung",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Nature spirit, greater",
+    "description": "Nature spirit, greater",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, mist",
+    "description": "Dragon, mist",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon horse",
+    "description": "Dragon horse",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Verme",
+    "description": "Verme",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Temperate Ocean",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Dragon turtle",
+    "description": "Dragon turtle",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, gajin buccaneers",
+    "description": "Men, gajin buccaneers",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Afanc",
+    "description": "Afanc",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Crab, giant",
+    "description": "Crab, giant",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Squid, giant",
+    "description": "Squid, giant",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, wako",
+    "description": "Men, wako",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Turtle, giant sea",
+    "description": "Turtle, giant sea",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre, aquatic",
+    "description": "Ogre, aquatic",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "School of fish",
+    "description": "School of fish",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ningyo",
+    "description": "Ningyo",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "School of fish",
+    "description": "School of fish",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Merman",
+    "description": "Merman",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Men, wako",
+    "description": "Men, wako",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Troll, marine",
+    "description": "Troll, marine",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hai nu",
+    "description": "Hai nu",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Seawolf",
+    "description": "Seawolf",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, tun mi lung",
+    "description": "Dragon, tun mi lung",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Dragon, lung wang",
+    "description": "Dragon, lung wang",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Elemental, water",
+    "description": "Elemental, water",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Encounters: Cold Regions (All terrain types)",
+  "formula": "2d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Encounters by terrain",
+  "description": "<p>OA p.114, used when a daily event (OA Table 73) gives Monster. The book prints results 2 to 20 but does not name the dice in the text; the formula here is set to 2d10, which you can change. OA p.115 lists the creatures that come from earlier monster books; the new OA creatures are in the OA Monsters compendium.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Raven, giant",
+    "description": "Raven, giant",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Owl, giant",
+    "description": "Owl, giant",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hoarfox",
+    "description": "Hoarfox",
+    "range": [
+     4,
+     4
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kala, cave",
+    "description": "Kala, cave",
+    "range": [
+     5,
+     5
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Kala, earth",
+    "description": "Kala, earth",
+    "range": [
+     6,
+     6
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Raven, ordinary",
+    "description": "Raven, ordinary",
+    "range": [
+     7,
+     7
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, large",
+    "description": "Falcon, large",
+    "range": [
+     8,
+     8
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Ogre",
+    "description": "Ogre",
+    "range": [
+     9,
+     9
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bear, black",
+    "description": "Bear, black",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Giant, hill",
+    "description": "Giant, hill",
+    "range": [
+     11,
+     11
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag",
+    "description": "Stag",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Weasel",
+    "description": "Weasel",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bear, brown",
+    "description": "Bear, brown",
+    "range": [
+     14,
+     14
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Shan sao",
+    "description": "Shan sao",
+    "range": [
+     15,
+     15
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Stag, giant",
+    "description": "Stag, giant",
+    "range": [
+     16,
+     16
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bear, northern",
+    "description": "Bear, northern",
+    "range": [
+     17,
+     17
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Falcon, small",
+    "description": "Falcon, small",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Hu hsien",
+    "description": "Hu hsien",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bakemono",
+    "description": "Bakemono",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 63: Divination Results",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Spells",
+  "description": "<p>OA p.59, used by the omen spell when the DM has nothing to base the answer on.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Ill omen: don't undertake the task today. If ignored: -1 on to-hit and saving throws for the day, encounter chance doubled, -10% reaction on all encounters.",
+    "description": "Ill omen: don't undertake the task today. If ignored: -1 on to-hit and saving throws for the day, encounter chance doubled, -10% reaction on all encounters.",
+    "range": [
+     1,
+     2
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Great danger: encounter chance doubled for the day, -10% reaction on all encounters, foes +1 to hit.",
+    "description": "Great danger: encounter chance doubled for the day, -10% reaction on all encounters, foes +1 to hit.",
+    "range": [
+     3,
+     4
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Neutral omen: no special modifiers.",
+    "description": "Neutral omen: no special modifiers.",
+    "range": [
+     5,
+     7
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Favorable omen: travel half again the normal rate today; foes -1 to hit the characters today.",
+    "description": "Favorable omen: travel half again the normal rate today; foes -1 to hit the characters today.",
+    "range": [
+     8,
+     9
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Auspicious omen: as a favorable omen, and +1 on all saving throws today.",
+    "description": "Auspicious omen: as a favorable omen, and +1 on all saving throws today.",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 65: Fate",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Spells",
+  "description": "<p>OA p.65, used by the fate spell when the DM knows of no particular event coming for the character.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "He will overcome some great opponent in a valiant struggle.",
+    "description": "He will overcome some great opponent in a valiant struggle.",
+    "range": [
+     1,
+     1
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will gain a great fortune but lose it before he can enjoy it.",
+    "description": "He will gain a great fortune but lose it before he can enjoy it.",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will rise to high position and enjoy the respect and admiration of those around him.",
+    "description": "He will rise to high position and enjoy the respect and admiration of those around him.",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will rise to high position, but evil scheming will bring about his fall.",
+    "description": "He will rise to high position, but evil scheming will bring about his fall.",
+    "range": [
+     4,
+     5
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will suffer a humiliating defeat at the hands of some great enemy.",
+    "description": "He will suffer a humiliating defeat at the hands of some great enemy.",
+    "range": [
+     6,
+     7
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will come into a great fortune that brings ruin and hardship to his house.",
+    "description": "He will come into a great fortune that brings ruin and hardship to his house.",
+    "range": [
+     8,
+     9
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Powerful beings will show him compassion, sparing his life at an unexpected moment.",
+    "description": "Powerful beings will show him compassion, sparing his life at an unexpected moment.",
+    "range": [
+     10,
+     12
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "His family's actions will bring misfortune on him.",
+    "description": "His family's actions will bring misfortune on him.",
+    "range": [
+     13,
+     15
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A stranger will bring disguised good fortune into his life.",
+    "description": "A stranger will bring disguised good fortune into his life.",
+    "range": [
+     16,
+     17
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will win great favor with the mighty through a brave and heroic act.",
+    "description": "He will win great favor with the mighty through a brave and heroic act.",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A stranger will bring ill fortune into his life.",
+    "description": "A stranger will bring ill fortune into his life.",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A fearful enemy will seek devious revenge on him when he least expects it.",
+    "description": "A fearful enemy will seek devious revenge on him when he least expects it.",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ }
+]

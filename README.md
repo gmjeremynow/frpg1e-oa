@@ -1,0 +1,65 @@
+# OA for 1e FRPG, v0.2.0
+
+An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14). It adds the OA rules: the OA races and classes on the character sheet, honor and birth, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment, magic items, monsters and roll tables. Turn the module on or off in Manage Modules. Don't run it together with OA Lite (frpg1e-oa-lite): both add the same races and classes.
+
+Based on OA by Gary Gygax, with David "Zeb" Cook and Francois Marcela-Froideval (TSR, 1985). The rules are restated in plain words and arranged by topic; the numbers (tables, dice, costs, spells, monsters and items) follow the book. You need the book for its original text.
+
+## Install
+
+In Foundry's Setup screen, go to Add-on Modules, Install Module, and paste this manifest URL:
+
+`https://github.com/gmjeremynow/frpg1e-oa/releases/latest/download/module.json`
+
+Then switch it on in the world and accept the offer to build the OA compendia. They can be rebuilt at any time from Configure Settings, 1e FRPG: OA, Rebuild OA compendia (this replaces the copies in the world).
+
+## What it adds
+
+- Races: human, korobokuru, hengeyokai (with the animal forms) and the bamboo, river and sea spirit folk, with the OA class limits and ability ranges.
+- Classes: barbarian, bushi, kensai, monk, ninja (as a split class), samurai, shukenja, sohei, wu jen and yakuza, with their experience tables, hit dice, attacks, saving throws and spell tables. Kensai and monk armor class, bushi armor class improvement, monk movement, barbarian constitution hit points, the wu jen hit point bonus, ninja hit points and the ninja backstab multiplier are applied automatically.
+- World setting "OA races and classes only" (on by default) takes the PHB and UA races and classes out of the lists. Characters already using them keep working.
+- An OA tab: honor, family honor and birth rank (with a Roll birth button for Table 38), class abilities for the current level, the proficiency pool, martial arts style and maneuvers, hengeyokai animal form, wu jen spells known and taboos, and yakuza contacts.
+- Compendia:
+  - OA Journals: the rules in plain words, by topic, in ten folders: Characters, Classes, Family, Honor and Society, Money and Equipment, Proficiencies, Magic, Combat and Martial Arts, Running the Game, The Eastern Lands, and Using This Module.
+  - OA Spells: 311 spells in folders by class (Shukenja, Wu Jen) and level.
+  - OA Weapons, Armor and Equipment: 265 items with the Table 47 to 54 numbers; ammunition is matched to its weapons; baskets, chests, saddle bags and the quiver are containers.
+  - OA Martial Arts: the 4 Table 68 styles and the 37 Table 70 special maneuvers.
+  - OA Proficiencies: 55 peaceful proficiencies with slots and base numbers.
+  - OA Magic Items: the 34 Table 86 items, with charges rolled when found.
+  - OA Monsters: 47 creatures in Spirits and Monsters.
+  - OA Tables: 32 roll tables (birth, divination and fate, events, ruins, magic items and encounters by terrain).
+
+## Choices made here
+
+- Plain-words rewrite (0.2.0): every journal page and every compendium description is a paraphrase of the book, not its text. Each page names the book pages it draws on.
+- Names: the book's title is written "OA", its setting "The Eastern Lands", and the game "1eFRPG". The adjective for the setting is "Eastern", or is dropped where the meaning survives. Setting names (Shou Lung, T'u Lung, Wa, Kozakura) and class and race names are kept.
+- The foreword, introductions and bibliography are dropped.
+- The book's tables are written out on the journal pages, built from the module's checked data or read from the page images.
+- Where the text and a table disagree, the table is used and both are noted: XP bonus abilities (Table 12), kensai armor class steps (Table 19), the yakuza birth modifier (Table 37, -10 against -5 in the text), exceptional strength for sohei (Table 10), and the calligraphy base number (Table 61, 18 against 17 in an example).
+- Weights: published for weapons (Table 49; a printed range uses its midpoint and counts as derived), armor (Table 54) and barding (p.50). Animals, vehicles and services don't count toward load. Everything else is marked unspecified.
+- Armor pieces (Table 53): the sheet counts only the best single armor item, so the combined armor class of the pieces is entered by hand.
+- Sohei can use some shukenja spells; each such spell says so at the top of its description. Each wu jen spell names its element there.
+- Added items so ammunition and missile weapons line up: shakujo yari, shikomi-zue, quarrels (two dozen) and sling stones. The blowpipe is listed as "Blowpipe (blowgun)" so it uses blowgun darts.
+- Magic items: the book's changes to standard magic items and its magic armor and weapon properties are on the Treasure and Magic Items journal pages, not in the compendium. Tables 74 to 85 are written out there; only Table 86 is a roll table.
+- Encounter tables print results 2 to 20 without naming the dice; they roll 2d10, which can be changed. Ancestry (Table 39) and birthrights (Table 40) roll the die given by Table 38, which changes with birth rank, so their formula is 1d100 to reach every row.
+- Added roll tables for Table 63 (divination results, 1d10) and Table 65 (fate, 1d20).
+- The chiang lung and tun mi lung roll hit points by size and age, like the system's other eastern dragons.
+
+## Kept as printed
+
+- Ninja pick pockets at dexterity 9, 10 and 11 is printed 15%, 10% and 05% with no minus signs (the PHB thief table has -15, -10 and -5).
+- Tael export: the text gives 2d6+2, Table 46 gives 2-12.
+- "Kawanga" (Table 49) and "o-yori" (Tables 52 and 54).
+- Two-handed weapons are marked in bold on Table 49, but bold row bands are used on other lists too, so which weapons are two-handed is Unknown and none are marked.
+- Know motivation and resurrection are reversible in their headers but not marked on Table 62; both are kept reversible.
+- Sohei marks on 5th to 7th level spells can't come into play (sohei cast up to 4th level).
+- Table II.A prints "500-200 ch'ien".
+- Fear armor prints both 2d4 and 2d10 charges.
+- The silence property is described but is not on Table 79.
+- The flooding entry refers to "Table 70: Yearly Events" (the yearly events table is Table 71).
+- Bargain punishment: "+2 on saves".
+- Withering palm: "decreases by 3".
+- Permanency lists invisibility twice, and "respect".
+- Cave kalau pain: "+1 saves".
+- "shikko-" against "shikki-gaki".
+- Me-zu: "Celestial Empire".
+- Table 56 has no slash totals.
