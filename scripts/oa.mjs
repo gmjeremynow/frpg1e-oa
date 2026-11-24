@@ -5,6 +5,7 @@
  */
 import { CLASSES, SPELLS, OA_CLASS_KEYS } from "./classes.mjs";
 import { RACES, OA_RACE_KEYS, korobokuruSave } from "./races.mjs";
+import { registerManeuver } from "./maneuvers.mjs";
 import { isStyle, STYLE_PREFIX, registerKi, renderOATab, rollBirth } from "./sheet-tab.mjs";
 import { offerImport, importCompendia } from "./compendia.mjs";
 
@@ -32,7 +33,7 @@ Hooks.once("init", () => {
   game.settings.register(MID, "compendiaVersion", { scope: "world", config: false, type: String, default: "" });
   game.settings.registerMenu(MID, "rebuild", { name: "OA compendia", label: "Rebuild OA compendia", icon: "fa-solid fa-book",
     type: class extends foundry.applications.api.ApplicationV2 { render() { importCompendia({ confirm: true }); return this; } }, restricted: true });
-  game.oa = { importCompendia, rollBirth, registerKi };
+  game.oa = { importCompendia, rollBirth, registerKi, registerManeuver };
 });
 
 Hooks.once("setup", () => applyLists(game.settings.get(MID, "oaOnly")));
