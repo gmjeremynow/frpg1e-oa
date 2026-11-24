@@ -2,7 +2,7 @@
   "id": "frpg1e-oa",
   "title": "1e FRPG: OA",
   "description": "An optional add-on for 1e FRPG, based on OA (TSR, 1985): the OA races and classes on the character sheet, honor and birth, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment, magic items, monsters and roll tables, with the rules restated in plain words and arranged by topic. Adds an OA tab and compendia. Turn it on or off in Manage Modules.",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -40,5 +40,5 @@
   "library": false,
   "url": "https://github.com/gmjeremynow/frpg1e-oa",
   "manifest": "https://github.com/gmjeremynow/frpg1e-oa/releases/latest/download/module.json",
-  "download": "https://github.com/gmjeremynow/frpg1e-oa/releases/download/v0.2.6/frpg1e-oa.zip"
+  "download": "https://github.com/gmjeremynow/frpg1e-oa/releases/download/v0.2.7/frpg1e-oa.zip"
 }
