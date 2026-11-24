@@ -1,4 +1,4 @@
-# OA for 1e FRPG, v0.2.7
+# OA for 1e FRPG, v0.2.8
 
 An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14). It adds the OA rules: the OA races and classes on the character sheet, honor and birth, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment, magic items, monsters and roll tables. Turn the module on or off in Manage Modules. Don't run it together with OA Lite (frpg1e-oa-lite): both add the same races and classes.
 
@@ -66,6 +66,7 @@ Then switch it on in the world and accept the offer to build the OA compendia. T
 
 ## Changes
 
+- 0.2.8: the OA tab appears only for a character with an OA race or at least one OA class (OA Dragon classes count). For anyone else the tab is hidden, and martial arts styles stay in the Combat tab's Weapons list.
 - 0.2.7: each maneuver row on the OA tab has a delete button, as on the Proficiencies tab; the OA tab's text boxes now have the same light background as the sheet's Notes editor.
 - 0.2.6: the OA weapons (46 of them, from the boku-toh to the wakizashi) are added to the weapon proficiency drop-down on the Proficiencies tab. Needs 1e FRPG 0.48.2 or later; on an older system the list stays as it was. OA entries that are a PHB weapon under another name (thrown club and dagger, composite short bow, staff sling, light lance, blowpipe) are left out, since the PHB name is already on the list.
 - 0.2.5: on the Proficiencies tab, a martial arts style in the weapon proficiency list no longer shows "(not in the weapon list)" after its name.
